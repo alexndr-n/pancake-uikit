@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { BinanceIcon  } from "../../../components/Svg";
+import { BinanceIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 import { HamburgerIcon, HamburgerCloseIcon } from "../icons";
 import MenuButton from "./MenuButton";
@@ -36,7 +36,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <BinanceIcon className="mobile-icon" />
-      <BinanceIcon className="desktop-icon" isDark={isDark} />
+      <BinanceIcon className="desktop-icon" />
     </>
   );
 
